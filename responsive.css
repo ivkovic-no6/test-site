@@ -1,0 +1,155 @@
+/*  listings section  */
+.listings ul.properties_list{
+    list-style: none;
+    overflow: hidden;
+}
+
+.listings ul.properties_list li{
+    display: block;
+    height: auto;
+    position: relative;
+    float: left;
+}
+
+.listings ul.properties_list li img.property_img{    
+    height: 30vmin;
+    width: 30vmin;
+    border : solid 0.3vmin white;
+    vertical-align: top;
+    margin-top: 10%;
+}
+#gallery{
+    position: fixed;
+    top: 20%;
+    left: 5vw;
+}
+.pics{
+    margin-right: 15vmin;
+}
+
+@media (max-width:1500px) {
+    #slders_wraper{
+        padding-left: 5%;
+    }
+    .listings ul.properties_list li img.property_img{    
+        height: 30vmin;
+        width: 30vmin;  
+        border : solid 0.3vmin white;      
+    }
+    .pics{
+        margin-right: 5vmin;
+    }
+
+    .listings ul.properties_list li{
+        margin-bottom: 10px;
+        margin-right: 5vmin;
+    }
+    .listings ul.properties_list li:nth-child(3n+0){
+        margin-bottom: 10px;
+        margin-right: 5vmin;
+    }
+    .listings ul.properties_list li:nth-child(2n+0){
+        margin-bottom: 10px;
+        margin-right: 5vmin;
+    }
+}
+
+@media (max-width: 1250px) {
+    .listings ul.properties_list li img.property_img{    
+        height: 25vmin;
+        width: 25vmin;        
+    }
+    #graphics{
+        margin-top: 5%;
+    }
+    #gallery{
+        top: 0;
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    #slders_wraper{
+        margin-top: 0;
+        margin-left: 5%;
+    }
+    #content_section{
+        height: 95%;
+        width: 75%;
+    }
+    .slider_text {
+        margin-bottom: 0;
+    }
+
+    .listings ul.properties_list li{
+        margin-bottom: 10px;
+        margin-right: 60px;
+    }
+    .listings ul.properties_list li:nth-child(3n+0){
+        margin-bottom: 10px;
+        margin-right: 15px;
+        clear: left;
+    }
+    .listings ul.properties_list li:nth-child(2n+0){
+        margin-bottom: 10px;
+        margin-right: 15px;
+    }
+}
+
+@media (max-width:800px) {
+    .listings ul.properties_list li img.property_img{
+        height: 150px;
+        width: 150px;
+    }
+    #graphics{
+        margin-top: 0;
+        margin-left: 25%;
+    }
+    #gallery{
+        margin-top: 0;
+        margin-left: 25%;
+    }
+    #logo_image{
+        left: 60%;
+    }
+
+    .listings ul.properties_list li{
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .listings ul.properties_list li:nth-child(3n+0){
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+    .listings ul.properties_list li:nth-child(2n+0){
+        margin-bottom: 0;
+        margin-right: 10px;
+        clear: left;
+    }
+}
+
+@media (max-width:500px){
+    #graphics{
+        margin-top: 0;
+        margin-left: 10%;
+    }
+    #gallery{
+        margin-top: 0;
+        margin-left: 10%;
+    }
+    #logo_image{
+        left: 55%;
+    }
+
+    .listings ul.properties_list li{
+        margin-bottom: 5px;
+        margin-right: 5px;
+        clear: left;
+    }
+    .listings ul.properties_list li:nth-child(3n+0){
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+    .listings ul.properties_list li:nth-child(2n+0){
+        margin-bottom: 5px;
+        margin-right: 5px;
+    }
+}
