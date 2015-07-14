@@ -1,0 +1,191 @@
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<link type="text/css" rel="stylesheet" href="stylesheet1.css"/>	
+	<link type="text/css" rel="stylesheet" href="responsive.css"/>
+	<!-- GALLERY PLUGIN -->	
+	<link type="text/css" rel="stylesheet" href="gallery_supp.css"/>
+	<script type="text/javascript" src="jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="jq_supp.js"></script>
+	<!-- SLIDE SHOW PLUGIN -->
+	<script type="text/javascript" src="jquery.cycle2.js"></script>
+	<script type="text/javascript" src="jquery.cycle2.tile.min.js"></script>
+	<!-- GOOGLE MAP API -->
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script type="text/javascript" src="google_map_api.js"></script>
+	<!-- LIGHT BOX -->
+	<!-- // <script type="text/javascript" src="lightbox/js/jquery-1.11.0.min.js"></script> -->
+	<script type="text/javascript" src="lightbox/js/lightbox.min.js"></script>
+	<link type="text/css" rel="stylesheet" href="lightbox/css/lightbox.css"/>
+	<title>MILOS MESSE</title>	
+	</head>
+	<body>
+		<!-- HELLO TEXT BEGIN -->
+		<div id="hello_text" style="display: none;">
+			<p>dizajn, projektovanje, montaza, opremanje sajamskih i kongresnih standova</p>
+		</div>		
+		<!-- HELLO TEXT END -->
+
+		<!-- BACKROUND SLIDE BEGIN -->
+		<div id="backround">
+			<img class="backround_images" src="pozadina1.png">
+			<img class="backround_images" src="pozadina2.jpg">
+			<img class="backround_images" src="pozadina3.jpg">
+		</div>
+		<!-- BACKROUND SLIDE END -->
+		<!-- MAIN MENU BEGIN -->
+		<div id="navigation">
+			<div id="button1" class="nav_button" style="margin-left: 50px">
+				O nama
+			</div>
+			<div id="button2" class="nav_button" style="margin-left: 40px">
+				Galerija
+			</div>
+			<div id="button3" class="nav_button" style="margin-left: 30px">
+				Reference
+			</div>
+			<div id="button4" class="nav_button" style="margin-left: 20px">
+				Saradnici
+			</div>
+			<div id="button5" class="nav_button" style="margin-left: 10px">
+				Grafika
+			</div>
+			<div id="button6" class="nav_button" style="margin-left: 0px">
+				Kontakt
+			</div>
+		</div>
+		<div id="main_menu">
+			<div id="home_button">
+				<img id="logo_image" src="logoV1.png">
+			</div>
+		</div>
+		<!-- MAIN MENU END -->
+		<!-- CONTENT PAGES BEGIN -->
+		<div class="content_section_cont">
+		<!-- <div id="wrapper"> -->
+			<div id="content_section" class="listings">
+				<div id="about_us" style="display: none;">
+					<div class="float_left"></div>
+					<p class="paragraph">Beoexpo system ,osnovan je 1992. i od tada do danas radi u ne promenjenom vlasničkom i organizacionom sastavu. Od samog početka delovanja postavljali smo, nove i inovativne standarde izlaganja i pružanja čitavog sistema usluga, koji idu ispred vremena. Dizajn, organizacija, kao i pouzdanost su osnovne vrednosti Beoexpo-a. Sa povećanjem obima rada i angažovanjem novih zaposlenih, kroz dugi niz godina, izgradili smo čvrst sistem koji u sebi sadrži projektni biro, graficki studio, sistem radionica za obradu drveta i metala, transport i špediciju. Kao rezultat takvog načina rada, postali smo partneri sa velikim proizvođačima izložbenih sistema (Octanorm i Mero). Na budućnost gledamo otvoreno, kao na mogućnost i obavezu da se razvijamo. Beoexpo je višestruko nagrađivan za svoj rad ,osvajanjem priznanja dodeljivanih od strane stručnih časopisa i strukovnih udruženja iz oblasti marketinga.</p>
+				</div>
+
+				<div id="gallery" style="display: none;">
+
+					<ul id="slders_wraper" class="properties_list">
+						<li id="maxima" class="pics">
+							<p class="slider_text">maxima</p>
+							<img class="slider_images property_img" src="maxima1.jpg">
+							<img class="slider_images property_img" src="maxima2.jpg">
+							<img class="slider_images property_img" src="maxima3.jpg">
+						</li>
+						<li id="octa" class="pics">
+							<p class="slider_text">okta</p>
+							<img class="slider_images property_img" src="octa1.jpg">
+							<img class="slider_images property_img" src="octa2.jpg">
+							<img class="slider_images property_img" src="octa3.jpg">
+						</li>
+						<li id="custom" class="pics">
+							<p class="slider_text">custom</p>
+							<img class="slider_images property_img" src="custom1.jpg">
+							<img class="slider_images property_img" src="custom2.jpg">
+							<img class="slider_images property_img" src="custom3.jpg">
+						</li>
+					</ul>
+
+					<div class="accordion" style="display: none;"> <!-- Star Accordian-->
+						<div id="back_to_slider" class="slider_text">nazad na izbor</div>
+						<div id="slideshow_wrapper">
+							<ul> <!-- Star UL -->
+								<li>
+									<!-- <div class="head"> 
+										<a href="#"> Head 1 </a>
+									</div> -->									
+									<a class="popup_link" href="pozadina1.png" data-lightbox="image-1" data-title="Maxima #1">
+										<img class="slideshow_images" src="pozadina1.png">
+									</a>
+							    </li>
+							    <li>
+									<a class="popup_link" href="pozadina2.jpg" data-lightbox="image-2" data-title="Maxima #2">
+										<img class="slideshow_images" src="pozadina2.jpg">
+									</a>
+							    </li>
+							    <li>
+									<a class="popup_link" href="pozadina3.jpg" data-lightbox="image-3" data-title="Maxima #3">
+										<img class="slideshow_images" src="pozadina3.jpg">
+									</a>
+							    </li>
+							</ul> <!-- End Ul -->
+						</div>
+
+					</div> <!-- End Accordian--> 
+
+				</div>
+
+				<div id="graphics" style="display: none;">
+					<ul class="properties_list">
+						<li>
+							<img src="property_1.jpg" alt="" title="" class="property_img"/>
+						</li>
+						<li>
+							<img src="property_1.jpg" alt="" title="" class="property_img"/>
+						</li>
+						<li>
+							<img src="property_1.jpg" alt="" title="" class="property_img"/>
+						</li>
+					</ul>					
+				</div>
+
+				<div id="contact" style="display: none;">
+					<div id="contact_text_wrapper">
+						<p class="contact_content" id="headquarters">
+							<strong>SEDISTE</strong> <br>
+							Borivoja Stevanovića 15, 11151 Beograd <br>
+							Tel/Fax: 011/8341-069 ~ GSM: 064/1111-772
+						</p>
+						<p class="contact_content" id="representative_office">
+							<strong>PREDSTAVNISTVO</strong> <br>
+							Bulevar vojvode Mišića 14, 11000 Beograd <br>
+							GSM: 064/2286-329
+						</p>
+						<p class="contact_content" id="web">
+							<strong>
+								<a href="mailto:m.messe@scnet.rs">m.messe@scnet.rs</a> <br>
+								www.mmesse.co.rs
+							</strong>
+						</p>
+					</div>
+					<!-- GOOGLE MAP -->
+					<div id="map-canvas">
+					</div>
+				</div>
+			</div>
+		<!-- </div> -->
+		</div>
+		<svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+			<filter id="myfilter">			    
+			    <!-- Brightness -->
+			    <feComponentTransfer>
+			      <feFuncR type="linear" slope="1.4"/>
+			      <feFuncG type="linear" slope="1.4"/>
+			      <feFuncB type="linear" slope="1.4"/>
+			    </feComponentTransfer>
+		    </filter>
+		</svg>
+		<!-- CONTENT PAGES END -->
+		<footer>
+			MILOS MESSE <br> Borivoja Stevanovića 15, Beograd <br> m.messe@scnet.rs
+		</footer>
+	</body>
+
+	<!-- FIREFOX brightness BEGIN -->
+	<svg height="0" xmlns="http://www.w3.org/2000/svg">
+ 	<filter id="brightness">
+    	<feComponentTransfer>
+    	    <feFuncR type="linear" slope="[amount]"/>
+        	<feFuncG type="linear" slope="[amount]"/>
+        	<feFuncB type="linear" slope="[amount]"/>
+    	</feComponentTransfer>
+  	</filter>
+	</svg>
+	<!-- FIREFOX brightness END -->
+</html>
