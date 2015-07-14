@@ -1,0 +1,46 @@
+/*#gallery {
+    margin-left: auto;
+    margin-right: 20vmin;
+}
+*/
+.accordion {
+    width:95vmin;
+    height:60vmin;
+    overflow:hidden;
+    margin-right: 15vmin;
+}
+
+.accordion ul {
+    width:200%;
+    list-style-type: none;
+}
+
+.accordion ul li {
+    position:relative;
+    width: 32vmin;
+    float: left;
+    box-shadow: 0 0 20px 5px #333;
+    transition: all 2s ease .300ms;
+}
+
+.accordion ul:hover li {width: 3vmin }
+.accordion ul li:hover {width: 70vmin }
+
+/*.head {
+    background:rgba(0,0,0,.5);
+    position:absolute;
+    bottom:0;
+    width:130vmin;
+}
+.head a {
+    text-decoration:none;
+    color:#fff;
+    padding:4vmin;
+    display:block;
+}*/
+ 
+.slideshow_images {
+    width: 80vmin;
+    height: 50vmin;
+    border : solid 0.5vmin white;
+}
